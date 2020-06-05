@@ -1,0 +1,21 @@
+{
+  "name": "pachong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crowller.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/superagent": "^4.1.7",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.18",
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.2.2"
+  }
+}
